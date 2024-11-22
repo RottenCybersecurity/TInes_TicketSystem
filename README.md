@@ -5,6 +5,7 @@ this works for zendesk as tested in a production environment however here we'll 
 Zammad.
 
 **Step 1: Setup**
+
 We'll need a few prerequisite that i'll walk you through outherwise setup should be simple.
 elasticsearch, according to the doc it isn't a hard dependency but why take chances
 Installtion Elastic Search
