@@ -41,5 +41,7 @@ http.max_content_length: 400mb
 indices.query.bool.max_clause_count: 2000
  
 Enable and start Elasticsearch
+
 $ systemctl start elasticsearch
+and
 $ systemctl enable elasticsearch
