@@ -40,10 +40,8 @@ We use the following settings to optimize the performance of our Elasticsearch s
 
 Nano /etc/elasticsearch/elasticsearch.yml and add http.max_content_length: 400mb on the last line. example below:
 
-#
-#  
-http.max_content_length: 400mb
-indices.query.bool.max_clause_count: 2000
+![image](https://github.com/user-attachments/assets/c05893b8-33f4-4d82-a8e7-0e8159afd3d5)
+
  
 Enable and start Elasticsearch
 $ systemctl start elasticsearch
