@@ -39,3 +39,7 @@ Now that we've finished installing, let's check the status:
 ![image](https://github.com/user-attachments/assets/1d9b13a7-acd8-4bb0-b377-cb2ccd57cb4e)
 
 Looks good! Good job!
+
+Lets move forward with integrating the two:
+
+https://github.com/RottenCybersecurity/Tines_TicketSystem/edit/main/Intergration%20of%20Zammad%20with%20Elasticsearch.md
