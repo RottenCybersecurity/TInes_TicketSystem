@@ -4,6 +4,7 @@ here we will be adding our wazuh alerts and using Tines as a middle man to direc
 this works for zendesk as tested in a production environment however here we'll be using an open source ticketing system that supports API
 Zammad.
 
+**Step 1: Setup**
 We'll need a few prerequisite that i'll walk you through outherwise setup should be simple.
 elasticsearch, according to the doc it isn't a hard dependency but why take chances
 Installtion Elastic Search
@@ -20,7 +21,8 @@ $ apt install elasticsearch
 $ /usr/share/elasticsearch/bin/elasticsearch-plugin install ingest-attachment
 After you installed Elasticsearch and its attachment plugin, ensure to enable it by default and start it.
 
-Step 2: Configuration
+**Step 2: Configuration**
+
 Install ingest-plugin (only for Elasticsearch <= 7)
 $ sudo /usr/share/elasticsearch/bin/elasticsearch-plugin install ingest-attachment
 
